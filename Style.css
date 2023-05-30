@@ -1,0 +1,92 @@
+html{
+    background:rgb(10, 34, 34);
+}
+
+
+#botonEncriptado, #botonDeseincriptado, #botonCopiar{
+    background-color: white;
+    width: 20%;
+    height: 20%;
+    font-size: 2em;
+    color: rgb(10, 34, 34);
+}
+
+
+#botonEncriptado{
+    text-align: center;
+    position: relative;
+    top: -432px;
+    left: -1110px;
+    box-shadow: 15px 15px 15px 15px rgba(121, 115, 115, 0.3);
+}
+    
+#botonDeseincriptado{
+    text-align: center;
+    position: relative;
+    top: -500px;
+    left: 440px;
+    box-shadow: 15px 15px 15px 15px rgba(121, 115, 115, 0.3);
+}
+    
+#botonCopiar{
+    text-align: center;
+    position: relative;
+    top: -410px;
+    left: -70px;
+    box-shadow: 15px 15px 15px 15px rgba(121, 115, 115, 0.3);
+    display: none;
+
+}
+
+#textoDesencriptado{
+    background-color: rgba(121, 115, 115, 0.3);
+    width: 700px;
+    height: 400px;
+    text-align: center;
+    font-size: 2em;
+    position: relative;
+    top: -550px;
+    left: -400px;
+    opacity: 0.5;
+    color: white;
+
+}
+
+#textoEncriptado{
+    background-color: rgba(121, 115, 115, 0.3);
+    width: 400px;
+    height:70px;
+    text-align: center;
+    font-size: 2em;
+    margin: 10px 10px;
+    position: relative;
+    top: -350px;
+    left: 900px;
+    opacity: 0.5;
+    box-shadow: 15px 15px 15px 15px rgba(121, 115, 115, 0.3);
+    color: white;
+}
+
+#imagen{
+    width: 400px;
+    height: 500px;
+    margin: 10px 10px;
+    position: relative;
+    top: -50px;
+    left: 900px;
+    box-shadow: 15px 15px 15px 15px rgba(121, 115, 115, 0.3);
+    
+}
+
+h3{
+    font-size: 3em;
+    color: white;
+    position: relative;
+    left: auto;
+    
+}
+    
+
+
+
+    

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang = "es">
+
+<head>
+    <meta charset="UFT-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css"> 
+    <script src="script.js"></script>
+    <title>Cifrado.Dev.Steven</title>
+</head>
+
+<body>
+
+ <h3>Encriptador de alura. Challenge #1, Steven Baldelomar</h3>
+
+  <div>
+    <img id="imagen" src="imagenes/HD-wallpaper-detective-sin-lentes-anime-detective-conan.jpg">
+  </div>
+
+
+  <div class="Botones">
+    <input type="text" id="textoEncriptado" required placeholder="ingrese el texto aqui">
+    <textarea name="resultado" id="textoDesencriptado" cols="30" rows="10"></textarea>
+    <button type="button" id="botonEncriptado">Encriptar texto</button>
+    <button type="button " id="botonDeseincriptado">Desencriptar texto </button>
+    <button type="button" id="botonCopiar">Copiar texto </button>
+  </div>
+
+  <script>
+    var btn = document.querySelector("#botonEncriptado");
+    btn.onclick = encriptar;
+
+    var btn2 = document.querySelector("#botonDeseincriptado");
+    btn2.onclick = desencriptar;
+
+    var btn3 = document.querySelector("#botonCopiar");
+    btn3.onclick = copiar;
+  </script>
+
+ </body>
+</html>
